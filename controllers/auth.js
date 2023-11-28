@@ -8,6 +8,7 @@ const User = require('../models/User');
 // @route     POST /api/v1/auth/register
 // @access    Public
 //testing
+//conflict merge
 exports.register = asyncHandler(async (req, res, next) => 
 {
     const{
