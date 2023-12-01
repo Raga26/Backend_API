@@ -120,6 +120,11 @@ const BootcampSchema = new mongoose.Schema(
       ref: 'User',
       required: true
     },
+ courses: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Courses',
+      required: true
+    },
  },
    {
       toJSON: { virtuals: true },
